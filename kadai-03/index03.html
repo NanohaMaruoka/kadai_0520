@@ -1,20 +1,24 @@
+
 <html lang="ja">
   <head>
    <meta charset="utf-8" />
-   <title class="text1">タイトル</title>
     <style>
      span {
-         color: #005731;
+         color: #1D6538;
      }
-     .text1 { font-size:36px; }
-     .text1 { font-weight:bold; }
+     span { font-size:48px; }
+     span { font-weight:bold; }
      </style>
   </head>
+   <body>
+    <span>タイトル</span>
+   </body>
   <body>
    <p>これはパラグラフです。意味を持った文章の塊です。</p>
    <h1 class="text2">リスト</h1>
      <style>
      .text2 { font-weight:bold; }
+     .text2 { font-size: 24px; }
      </style>
     <p>複数の事物を列挙するリストです。</p>
      <ul>
@@ -26,20 +30,18 @@
     <p class="text4">フォント(サンセリフ体)</p>
     <p class="text5">フォントウェイト(nomal)</p>
     <p class="text6">フォントウェイト(bold)</p>
+    <p class="text7">枠線(黒の実線)と余白(padding：10px)</p>
+    <p class="text8">枠線(赤の破線)と余白(padding:50px,margin:10px)</p>
     　<style>
        .text3 { font-family: serif; }
        .text4 { font-family: sans-serif; }
        .text5 { font-weight: bold; }
        .text6 { font-weight: normal; }
+       .text7 { border: 1px solid black; }
+       .text7 { padding: 10px; }
+       .text8 { border: 1px dashed red; }
+       .text8 { padding: 50px;}
+       .text8 { margin: 10px; }
       </style>
-    <p class="text7">枠線(黒の実線)と余白(padding：10px)</p>
-    <p class="text8">枠線(赤の破線)と余白(padding:50px,margin:10px)</p>
-     <style>
-      .text7 { border: 1px solid black; }
-      .text7 { padding: 10px; }
-      .text8 { border: 1px dashed red; }
-      .text8 { padding: 50px;}
-      .text8 { margin: 10px; }
-     </style>
   </body>
 </html>
